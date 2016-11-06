@@ -84,6 +84,12 @@ public class Percolation {
         return quf.connected(top, bottom);
     }
 
+    /**
+     * Find index of 2d array for given row and column!!!
+     * @param row
+     * @param column
+     * @return
+     */
     public int findIndexFlat(int row, int column) {
         return size * (row - 1) + column;
     }
