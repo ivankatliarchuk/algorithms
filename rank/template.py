@@ -10,4 +10,8 @@ OUTPUT
 SAMPLE INPUT
 -----
 SAMPLE OUTPUT
+-----
+EXPLANATION
+-----
 """
+
