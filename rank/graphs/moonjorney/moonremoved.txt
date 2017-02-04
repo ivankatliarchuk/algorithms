@@ -1,0 +1,23 @@
+# else:
+        #     # iterate over sets
+        #     flag = True
+        #     for key in countries.keys():
+        #         astronauts = countries.get(key)
+        #         if A in astronauts or B in astronauts:
+        #             # print("key {0} country {1}, found {2}, astronauts {3}".format(key, i, (A, B), astronauts))
+        #             astronauts.add(A)
+        #             astronauts.add(B)
+        #             flag = False
+        #     if flag:
+        #         # create new country if not found
+        #         astronauts = set()
+        #         astronauts.add(A)
+        #         astronauts.add(B)
+        #         countries[i] = astronauts
+
+
+
+        # for key in data.keys():
+                #     VV = data.get(key)
+                #     currentLength = len(VV)
+                #     local += currentLength * localLength
