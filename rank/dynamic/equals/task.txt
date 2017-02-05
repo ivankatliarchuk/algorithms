@@ -1,0 +1,35 @@
+"""
+TASK
+One day we have to distribute some chocolate to the colleagues. Need to make sure we cant distribute  the
+chocolate unequaly. One of the program managers gets to know this and orders co make sure everyone gets equal
+number of chocolates.
+
+But to make things difficult for the intern, order is equalize for every colleague in the following manner.
+
+For every operation, we can choose one of her colleagues and can do one of the three things.
+1. Can give one chocolate to every colleague other than chosen one.
+2. Can give two chocolates to every colleague other that chosen one.
+3. Can give five chocolates to every colleague othe that chosen one
+
+Calculate minimum number of such operations needed to ensure that every colleague has the same number of chocolates.
+INPUT
+First line contains an integer T detoting the number of test cases, T testecases follow.
+Each testcase has 2 lines. First line of each testcase contains an integer N denoting the number of co-interns.
+Second line contains N space separated integers denoting the current number of chocolates each colleague has.
+CONSTANTS
+1 <= T <= 100
+1 <= N <= 1000
+Number of initial chocolates each colleague has < 1000
+OUTPUT
+T lines each containing the minimum number of opearations needed to make sure all colleagues have the same number of chocolates.
+SAMPLE INPUT
+1
+4
+2 2 3 7
+SAMPLE OUTPUT
+2
+EXPLANATION
+1st operation: Dude increases all elements by 1 except 3rd one
+2 2 3 7 > 3 3 3 8
+2nd operation: Dude increases all element by 5 except last one
+3 3 3 8 > 8 8 8 8
