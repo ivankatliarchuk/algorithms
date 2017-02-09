@@ -11,3 +11,7 @@ a,b,c,d,e = [int(a),int(b),int(c),int(d),int(e)]
 
 for line in sys.stdin:
     print(line)
+
+
+N = int(input().strip())
+data = list(map(int, input().strip().split(' ')))

@@ -1,0 +1,29 @@
+"""
+TASK
+Given an array of integers, calculate which fraction of its elements are positive, which fraction of its elements are
+negative, and which fraction of its elements are zeros, respectively. Print the decimal value of each fraction on a new line.
+
+Note: This challange introduces precision problems. The test case are scaled to six decimal places, though answers with absolute
+error of up to 10 ** -4 are acceptable.
+INPUT
+The first line contains an integer N, denoting the size of the array.
+The second line contains N space separated integers describing an array of numbers (a0, a1, ..., an-1)
+CONSTANTS
+-----
+OUTPUT
+You must print the following 3 lines
+1. A decimal representing of the fraction of positive numbers in the array.
+2. A decimal representing of the fraction of negative numbers in the arrya.
+3. A decimal representing of the fraction of zeros in the array.
+SAMPLE INPUT
+6
+-4 3 -9 0 4 1
+SAMPLE OUTPUT
+0.500000
+0.333333
+0.166667
+EXPLANATION
+There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
+The respective fractions of positive numbers, negative numbers ans zeros are 3/6=0.500000, 2/6=0.333333
+and 1/6 = 0.166667, respectively
+"""
