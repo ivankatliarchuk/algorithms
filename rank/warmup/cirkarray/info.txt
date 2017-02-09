@@ -1,0 +1,28 @@
+"""
+TASK
+Perform an operation called a right circular rotation on an array of integers, [a1, a2, ..., an-1]. After performing one right
+circular operation, the array is transformed from [a0, a1, .., an-1] to [an-1, a0, .., an-2].
+
+Perfrom this operation K times. To test this ability, to identify current element at a particular position in the rotated array,
+asks Q queries, where each query consists of a single integer, M, for which you must print the element at index M in the rotated array.
+INPUT
+The first line  contains 3 space-separated integers, N, K and Q, respectively.
+The second line contains N space-separated array of integers I describes array element A
+Each of the Q subsequent lines contains a single integer denoting m
+CONSTANTS
+-----
+OUTPUT
+For each query, print the value of the element index M of the rotated array on a new line.
+SAMPLE INPUT
+3 2 3
+1 2 3
+0
+1
+2
+SAMPLE OUTPUT
+2
+3
+1
+EXPLANATION
+-----
+"""
