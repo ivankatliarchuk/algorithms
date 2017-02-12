@@ -1,0 +1,19 @@
+"""
+TASK
+Given five positive integers, find the minimum and maximum values taht can be calculated by summing exactly
+four of the five integers. Then print the respective minimum and maximum values as single line of two space-separated
+long integers.
+INPUT
+A single line of five space-separated inters.
+CONSTANTS
+Each integer is in the inclusive range |1, 10^9|.
+OUTPUT
+Print two space separated long integers denoting the respective minimum and maximum values that can be calculated by summing
+exactly four of the five integers.
+SAMPLE INPUT
+1 2 3 4 5
+SAMPLE OUTPUT
+10 14
+EXPLANATION
+-----
+"""
