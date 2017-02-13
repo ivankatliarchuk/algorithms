@@ -1,0 +1,22 @@
+"""
+TASK
+There are two kangaroos on an x-axis ready to jump in the positivie direction(towards positive infinity). The first kangaroo starts
+at location X1 and moves at a rate of V1 meters per jump. The second kangaroo starts at location X2 and moves at a rate of V2 meters
+per jump. Given the starting locations amd movement rates for each kangaroo, can you determine if they'll ever land at the same location
+at the same time?
+INPUT
+A single line of four space-separated integers denoting the respective values of X1, V1, X2 and V2.
+CONSTANTS
+0 <= X1 <= X2 <= 10000
+1 <= V1 <= 10000
+1 <= V2 <= 10000
+OUTPUT
+Print YES if they can land on the same location at the same time; otherwise, print NO.
+NOTE: The two kangaroos must land at the same location after making the same number of jumps.
+SAMPLE INPUT
+0 3 4 2
+SAMPLE OUTPUT
+YES
+EXPLANATION
+-----
+"""
