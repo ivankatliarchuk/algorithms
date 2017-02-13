@@ -1,0 +1,37 @@
+"""
+TASK
+ Sam's house has an apple tree and an orange tre that yeld an abundance of fruit. In the diagram below, the red region denotes
+his house, where s is the start point and t is the end point. The apple tree is to the left of his house, and the orange
+tree is to its right. You can assume the trees are located on as single point, where the apple tree is at point a and the orange
+tree is at point b.
+ When a fruit falls from its tree, it lands d units of distance from its tree of oritin along th X-axis. A negative value of D means
+the fruit fell D units to the tree's left, and a positive value of D means it falls D units to trhe tree's right.
+ Given the value of D for M apples and N oranges, con you determine how many applyes and oranges will fall on Sam's house (in the
+inclusive range |S,T|)? Print the number of apples that fall on Sam's house as you first line of output, then print the number of
+oranges tat fall on Sam's house as your second line of output.
+INPUT
+The first line contains two space-separated integers denoting the respective values of S and T.
+The second line contains two space-separated integers denoting the respective values of A and B.
+The third line contains two space-separated integers denoting the respective values of M and N.
+The fourth line contains M space- separated integers denoting the respective distanes that each apple falls from point A.
+The fifth line contains N space-separated integers denoting the respecrive distances that each orange fals from point B.
+CONSTANTS
+1 <= s,t,a,b,m,n <= 10 ** 5
+-10^5 <= D <= 10^5
+A < S < T < B
+OUTPUT
+Print two lines of output
+1. On the first line, print the nubmer of apples that fall on Sam's house.
+2. On the second line, print the number of oranges that fall on Sam's house.
+SAMPLE INPUT
+7 11
+5 15
+3 2
+-2 2 1
+5 -6
+SAMPLE OUTPUT
+1
+1
+EXPLANATION
+-----
+"""
