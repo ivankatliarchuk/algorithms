@@ -1,0 +1,30 @@
+"""
+TASK
+Anna and Brian order N items at a restaurant, but Anna declines to eat any of the K^ih item (where 0 < k < n)
+due to allergy.  When the check comes. they decide to split the cost of all the items they shared, however, Brian may have
+forgotten that they did't split the k^ih item and accidently chrged Anna for it.
+
+You are given N,K, the cost of each of the N items, and the total amount of money that Brian charged Anna for her position of the bill.
+If the bill is fairly split, print Bon Appetit, otherwise, print the amount of money that Brian must refund Anna.
+INPUT
+The first line contains two space-separated integers denoting the respective values of N (the number of items ordered) and K
+(the 0-based index of the item that Anna did not eat).
+The second line contains N space-separated where each integer I denotes that cost, c|i| of item I (where 0 <= i <= n).
+The third line contains an integer, Bcharged, denoting the amount of money that Brian charged Anna for her share of the bill.
+CONSTANTS
+2 <= n <= 10^5
+0 <= k < n
+0 <= c|i| <= 10 ^ 5
+0 <= b <= Ec|i|
+OUTPUT
+If Brian did not overcharged Anna, prin Bon Appetit on a new line; otherwise, print the difference (i.e. Bcharged - Bactual) that
+Brian must refund to Anna (guaranteed that is always be an integer)
+SAMPLE INPUT
+4 1
+3 10 2 9
+12
+SAMPLE OUTPUT
+5
+EXPLANATION
+-----
+"""
