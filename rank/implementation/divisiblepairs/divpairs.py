@@ -14,12 +14,10 @@ def sumPairs(K, numbers):
         value = keys[key]
         for k in range(key, length):
             if (value + keys[k]) % 3 == 0:
-                counter = counter + (data.get(value) * data.get(keys[k]))
-                print("formatted {} and key {} with k {}".format(counter, value, keys[k]))
+                counter = counter + (data.get(value) + data.get(keys[k])) / 2
             elif (value + keys[k]) % 3 == 0:
-                counter = counter + (data.get(value) * data.get(keys[k]))
-            print("formatted elif {} and key {} with k {}".format(counter, value, keys[k]))
-    print(counter)
+                counter = counter + (data.get(value) + data.get(keys[k])) / 2
+    print(int(counter))
 
 
 if __name__ == '__main__':
