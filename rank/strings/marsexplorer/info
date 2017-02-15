@@ -1,0 +1,20 @@
+"""
+TASK
+Sami's spaceship crashed on Mars. She sends N sequential SOS messages to Earth for help.
+Letters on some of the SOS messages are altered by cosmic radiation during transmission. Given the signal received by Earth
+INPUT
+There is one line of input: a single string, S.
+Note: As the original message is just SOS repeated N times, S's length will be a mutliple of 3.
+CONSTANTS
+1 <= |S| <= 99
+|S| % 3 = 0
+S will contain only uppercase english letters.
+OUTPUT
+Print the number of letters in Samis message that were altered by cosmic radiation.
+SAMPLE INPUT
+SOSSPSSQSSOR
+SAMPLE OUTPUT
+3
+EXPLANATION
+-----
+"""

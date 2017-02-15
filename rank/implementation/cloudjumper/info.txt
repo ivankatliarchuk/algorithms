@@ -1,0 +1,27 @@
+"""
+TASK
+Emma is playing a new mobile game involving N clouds numbered from 0 to N-1. A player initially start out on cloud c0, and they must
+jump to cloud cN-1, she can jump from any cloud i to cloud i+1 or cloud i+2.
+There are two types of clouds, ordinary cloud and thunderclouds. The game ends if Emma jumps onto a thunderbcloud, but if she reaches
+the last cloud(cN-1) she wins the game!
+Can you find the minimum number of jumps Emma must make to win the game? It is guaranteed that clouds c0 and cN-1 are ordinary
+clouds and it is always possible to with the game.
+INPUT
+The first line contains an integer, n (the total number of clouds).
+The second line contains n space-separated binary integers describing clouds c0, c1, .., cN-1
+if cI = 0, the iTh cloud is an ordinary cloud
+if cI = 1, the iTh cloud is a thundercloud.
+CONSTANTS
+2 <= N <= 100
+cI belongs |0,1|
+c0 = cN-1 = 0
+OUTPUT
+Print the minimum number of jumps needed to win the game.
+SAMPLE INPUT
+7
+0 0 1 0 0 1 0
+SAMPLE OUTPUT
+3
+EXPLANATION
+-----
+"""

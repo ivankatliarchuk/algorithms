@@ -10,16 +10,25 @@ day, floor(5/2) * 3 = 2 * 3 = 6 people receive advertisement.
 On the second day, half of the 6 people who received the advertisement share it with 3 new friends. So, at the beginning of the second
 day, floor(6/2) * 3 = 3 * 3 = 9 people receive the advertisement. The diagram below depicts the advertisement's virality over
 the first three days(green denotes a person that likes the advertisement and red denotes a person that disliked and delete it):
+
+Assume that at the beginning of the iTH day, M people received the advertisement, floor(m/2) people like and share it with 3 new
+friends, and m - floor(m/2) people dislike and delete it. At the beginning of the (i+2)th day, floor(m/2) *3 people receive the
+advertisement.
+
+Given an integer, n, find and print the total number of people who liked Hackerland Enterprise advertisement during the first
+n days. It is Guaranteed that no two people have any friends in common, and, after a person shares the advertisement with a friend,
+the friend always sees it the next day.
 INPUT
------
+A single integer, n, denoting a number of days.
 CONSTANTS
------
+1 <= n <= 50
 OUTPUT
------
+Print the number of people who liked the advertisement during the first N days.
 SAMPLE INPUT
------
+3
 SAMPLE OUTPUT
------
+9
 EXPLANATION
------
+The example is depicted by the diagram at the top of the challenge. 2 people liked the advertisement on the first day,
+3 people liked advertisement on the second day and 4 people liked the advertisement on the third day, so the answer is 2 + 3 +4 = 9
 """
