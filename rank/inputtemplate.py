@@ -15,3 +15,5 @@ for line in sys.stdin:
 
 N = int(input().strip())
 data = list(map(int, input().strip().split(' ')))
+
+A = [int(source) for source in input().strip().split(' ')]
