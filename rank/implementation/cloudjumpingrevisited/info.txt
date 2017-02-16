@@ -1,0 +1,31 @@
+"""
+TASK
+Aerith is playing a cloud game! In this game, there are N clouds numbered sequentially from 0 to N-1. Each cloud is either
+an ordinary cloud or a thundercloud.
+
+Aerith starts out on cloud 0 with energy level E = 100. She can use 1 unit of energy to make a jump of size K to cloud (I+K)%N,
+and she jumps untill she gets back to cloud 0.If Aerin lands on a thundercloud, her energy(E) decreases by 2 additional units.
+The game ends when Aerith lands back on cloud 0.
+
+Given the values of N, K, and the configuration of the clouds, can you determine the final value of E after the game ends?
+NOTE: Recall that % refers to the modulo operation.
+INPUT
+The first line contains two space-separated integers N(the number of clouds) and K(the jump distance), respectively.
+The second line contains N space-separated integers describing the respective values of clouds c0, c1, .., cN-1
+Each cloud is described as follows:
+if cI = 0, then cloud I is an ordinary cloud.
+if cI = 1, then cloud I is a thundercloud.
+CONSTANTS
+2 <= N <= 25
+1 <= K <= N
+N % K = 0
+OUTPUT
+Print the final value of E on a new line.
+SAMPLE INPUT
+8 2
+0 0 1 0 0 1 1 0
+SAMPLE OUTPUT
+92
+EXPLANATION
+-----
+"""

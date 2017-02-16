@@ -1,0 +1,23 @@
+"""
+TASK
+Bob has a strange couner. At the first second, t=1, it displays the number 3. At each subsequent second, the number displayed
+by the counter decrements by 1.
+
+The counter counts down in cycles. In the second after the counter coutns down to 1, the number becomes 2 * Initial Number
+for that countdown cycle and then continous counting down from the new initial number in a new cycle.
+Given a time t, find and print the value displayed by the counter at time t.
+INPUT
+A single integer denoting the value of T.
+CONSTANTS
+1 <= T <= 10 ^ 12
+SUBTASK
+1 <= T <= 10^5
+OUTPUT
+Print the value displayed by the strange counter at the given time t.
+SAMPLE INPUT
+4
+SAMPLE OUTPUT
+6
+EXPLANATION
+-----
+"""

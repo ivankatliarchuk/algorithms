@@ -1,0 +1,23 @@
+"""
+TASK
+Given a set, S, of N distinct integers, print the size of a maximum subset, S', of S where the sum of any 2 numbers in
+S' is not evenly divisible by K.
+INPUT
+The first line contains 2 space separated integers, N and K, respectively.
+The second line contains N space-separated integers(we'll refere to the iTh value as aI) describing the unique values of the set.
+CONSTANTS
+1 <= N <= 10 ^ 5
+1 <= K <= 100
+1 <= aI <= 10 ^ 9
+All of the given numbers are distinct
+OUTPUT
+Print the size of the larges possible subset S'
+SAMPLE INPUT
+4 3
+1 7 2 4
+SAMPLE OUTPUT
+3
+EXPLANATION
+The largest possible subset of integers is S' = {1, 7, 4}, because no two integers will have a sum that is evenly divisible by K = 3
+
+"""

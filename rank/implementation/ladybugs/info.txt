@@ -1,0 +1,42 @@
+"""
+TASK
+Happy Ladybugs is a board game having the following properties:
+* The board represented by a string, B, of length N. The iTh character of the string, bI, denotes the iTh cell of the board.
+  * if Bi is an uppercase (_), it means the iTh cell of the board is empty.
+  * if Bi is an uppercase alphabetic letter(A through Z), it means the iTh cell contains a ladybug of color bI.
+  * String B will not contain any other characters.
+* A ladybug is happy only when its left or right adjacent cell is occupied by another ladybug having same color.
+* In a single move, you can move a ladybug from its current position to any empty cell.
+
+Given the values of N and B for G games of Happy Ladybugs, determine if it's possible to make all the ladybugs happy. For each
+game, print YES on a new line if all the ladybugs can be made happy through some number of moves; otherwise, print NO to indicate
+a no number of moves will result in all the ladybugs being happy.
+INPUT
+The first line contains an integer, G, denoting the number of games. The 2 * G subsequent lines describes a Happy Ladybugs game in
+the following format:
+1. The first line contains an integer, N, denoting the number of cells on the board.
+2. The second line contains a string, B, describing the N cells of the board.
+CONSTANTS
+1 <= G <= 100
+1 <= N <= 100
+It is guaranteed that string B consist of udrescores and/or uppercase English alphabetic letters(i.e. _ and A-Z)
+OUTPUT
+For each game, print YES on a new line if it is possible, to make all the ladybugs happy; otherwise, print NO.
+SAMPLE INPUT
+4
+7
+RBY_YBR
+6
+X_Y__X
+2
+__
+6
+B_RRBR
+SAMPLE OUTPUT
+YES
+NO
+YES
+YES
+EXPLANATION
+-----
+"""
