@@ -1,0 +1,30 @@
+"""
+TASK
+Lily likes to play games with integers and their reverals. For some integer X, we define reversed(X) to be the reversal of all
+digits in X. For example revesal(123) = 321, reversal(21) = 12, and reversed(120) = 21
+
+Logan wants to go to the movies with Lily on some day X, that satisfy  i<= x <= j, but he knows she only goes to the movies on
+days, she consider to be beatiful. Lilly considers a day to be beatiful if the absolute value of the difference between X and
+reversed(X) is evenly divisible by K.
+Given I,J and K, count and print the number of beatiful days when Logan and Lilly can go to the movies.
+INPUT
+A single line of three space-separated integers describing the respective values of I,J and K
+CONSTANTS
+1 <= I <= J <= 2 * 10 ^ 6
+1 <= K <= 2 * 10 ^ 9
+OUTPUT
+Print the number of beatiful days in the inclusive range between I and J.
+SAMPLE INPUT
+20 23 6
+SAMPLE OUTPUT
+2
+EXPLANATION
+Logan wants to go to the movies on days 20, 21, 22 and 23. We perform the following calculations to determine which days are
+beatiful.
+* Day 20 is beatiful because the following evaluates to a whole number (20-02)/6
+* Day 21 is not beatiful because the following doesn't evaluate to a whole number (21-12)/6
+* Day 22 is beatiful
+* Day 23 is not beatiful
+Only two days, 20 and 23, in this interval are beatiful. Thus, we print 2 as our answer.
+"""
+
