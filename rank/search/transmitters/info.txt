@@ -1,0 +1,26 @@
+"""
+TASK
+Hackerland is a one-dimensional city with N houses, where each house I is located at some X on the x axis. The Mayor wants to intall
+radio transmitters on the roofs of the city's houses. Each transmitter has a range, K, meaning it can transmit a signall to all houses
+<= K units of distance away.
+
+Given a map of Hackerland and the value K, can you find and print the minimum number of transmitters needed to cover every house in the city?
+(Every house must be covered by at least one transmitter) Each transmitter be installed on top of an existing house.
+INPUT
+The first line containts two space-separated integers describing the respective values of n (the number of houses in Hackerland)
+and K (the range of each transmitter)
+The second line contains the N space-separated integers describing the respective locations of each house
+CONSTANTS
+1 <= N,K <= 10 ^ 5
+1 <= X <= 10 ^ 5
+There may be more that one house at the same location.
+OUTPUT
+Print a single integer denoting the minimum number of transmitters needed to cover all the houses.
+SAMPLE INPUT
+5 1
+1 2 3 4 5
+SAMPLE OUTPUT
+2
+EXPLANATION
+-----
+"""
