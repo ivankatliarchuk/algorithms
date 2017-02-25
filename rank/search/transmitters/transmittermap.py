@@ -1,5 +1,6 @@
 transmitters = {}
 
+
 def analytics(distance, data):
     transmitter = 0
     index = 0
@@ -18,7 +19,9 @@ def analytics(distance, data):
             transmitters[transmitter] = [value]
         elif maxD >= value:
             # same transmitter
-            pass
+            houses = transmitters.get(transmitter)
+            if houses is not None:
+                houses.append(value)
         elif maxD < value:
             if index < length - 1:
                 valN = data[index + 1]
@@ -27,9 +30,14 @@ def analytics(distance, data):
                 else:
                     maxD = value + distance
             transmitter += 1
+            transmitters[transmitter] = [value]
         index += 1
+    printer(transmitters)
     return transmitter
 
+def printer(structure):
+    for key, value in structure.items():
+        print("{}".format(value))
 
 if __name__ == '__main__':
     N, K = list(map(int, input().strip().split(' ')))
