@@ -1,0 +1,33 @@
+"""
+TASK
+The city of Gridland is represented as an N x M matrix where the rows are numbered from 1 to N and the columns are numbered from 1
+to M.
+Gridland has a network of train tracks that always run in straight horizontal lines along a row. In other words, the start and
+end points of a train track are (r, c1) and (r, c2), where R represents the row number, c1 represents the starting column and
+c2 represent the ending column of the train track.
+The mayor of Gridland is surveing the city to determine the number of locations where lampposts can be placed. A lampost can be placed
+in any cell that is not occupied by a train track.
+Given a map of Gridland and its K train tracks, find and print the number of cells where the mayour can place lamposts.
+Note: A train track may or may not overlap other train tracks within the same row.
+INPUT
+The first line contains three space separated integers describing the respective values of N (the number of rows), M (the number of
+columns) and K(the number of train tracks).
+Each line I of the K subsequent lines contains three space separated integers describing the respective values of r, c1 and c2 that
+define a train track.
+CONSTANTS
+1 <= N, M <= 10 * 9
+0 <= K <= 1000
+1 <= R <= N
+1 <= c1 <= c2 <= M
+OUTPUT
+Print a single integer denoting the number of cells where the mayour can install lampposts.
+SAMPLE INPUT
+4 4 3
+2 2 3
+3 1 4
+4 4 4
+SAMPLE OUTPUT
+9
+EXPLANATION
+-----
+"""
